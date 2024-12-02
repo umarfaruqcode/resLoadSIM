@@ -1,0 +1,31 @@
+Requirements
+------------
+
+  C++ compiler
+  
+  optional:
+    CMake
+    MPI Library
+    PETSc
+    libcurl
+ 
+Installation (Linux/MacOS)
+------------
+  
+  mkdir build
+  cd build
+  cmake ..
+  make
+  make install
+  
+Execution
+---------
+
+  resLoadSIM [-v|-s] households days
+  
+  Households and days are the number of households to simulate
+  and the simulation time in days. The options are:
+  
+  -v                 show the version number  
+  -s                 silent mode. no output on screen
+  

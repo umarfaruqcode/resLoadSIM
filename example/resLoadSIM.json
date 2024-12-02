@@ -1,0 +1,65 @@
+{
+  "location": "Vienna",
+  "pv_data_file_name": "",
+  "pv_forecast_file_name": "",
+  "solar_production_reference_year": [2005],
+  "battery_charging":
+  {
+    "strategy": 0,
+    "production_forecast_method": 0,
+    "feed_in_limit": 0.50,
+    "precharge_threshold": 0.10,
+    "shared": FALSE
+  },
+  "powerflow":
+  {
+    "case_file_name": "",
+    "step_size": 0,
+    "uv_control": FALSE,
+    "uv_lower_limit": 0.910,
+    "uv_upper_limit": 0.925,
+    "ov_control": FALSE,
+    "ov_lower_limit": 1.075,
+    "ov_upper_limit": 1.090,
+    "output_level": 1
+  },
+  "control": 0,
+  "peak_shaving":
+  {
+    "relative": TRUE,
+    "threshold": 85.00
+  },
+  "seed": 0,
+  "output": 1,
+  "start":
+  {
+    "day": 1,
+    "month": 1,
+    "year": 2011,
+    "time": 0.00
+  },
+  "transient_time": 1.00,
+  "daylight_saving_time": 1,
+  "timestep_size": 60.00,
+  "simulate_heating": FALSE,
+  "ventilation_model": FALSE,
+  "variable_load": FALSE,
+  "comments_in_logfiles": TRUE,
+  "energy_classes_2021": TRUE,
+  "price_grid":
+  {
+    "profiles":
+    [
+      [[0.00, 24.00, 0.20]]
+    ],
+    "sequence": [1]
+  },
+  "price_solar":
+  {
+    "profiles":
+    [
+      [[0.00, 24.00, 0.10]]
+    ],
+    "sequence": [1]
+  }
+}
